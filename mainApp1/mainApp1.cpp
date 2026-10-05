@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "MyCalculate.h"
 
 using namespace std;
 
@@ -14,6 +15,8 @@ int main()
     cout << "\nEnter b: ";
     cin >> b;
     cout << "\nResult: " << a + b << endl;
+    MyCalculate c(a, b);
+    cout << "\nMultiply: " << c.Mul(a, b) << endl;
 
     system("pause");
     return 0;
