@@ -12,5 +12,8 @@ public:
 		return a * b;
 	}
 
+	double Mul() {
+		return x * y;
+	}
 };
 

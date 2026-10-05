@@ -16,7 +16,7 @@ int main()
     cin >> b;
     cout << "\nResult: " << a + b << endl;
     MyCalculate c(a, b);
-    cout << "\nMultiply: " << c.Mul(a, b) << endl;
+    cout << "\nMultiply: " << c.Mul() << endl;
 
     system("pause");
     return 0;
